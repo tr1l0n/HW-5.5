@@ -1,0 +1,55 @@
+.img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+    background-color: wheat;
+    height: 700px;
+}
+.title{
+    font-size: 18px;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 270px;
+    background-color: white;
+    border-radius:30px ;
+    margin-bottom: 20px;
+}
+.diff{
+    border-radius: 30px;
+    background-color: white;
+    width: 190px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    height: 110px;
+}
+.btns{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    font-size: 14px;
+    background-color: wheat;
+    border-radius: 17px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+.highlight{
+    composes: btn;
+    background-color: orangered;
+    color: white;
+}

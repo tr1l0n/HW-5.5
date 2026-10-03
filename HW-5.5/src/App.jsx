@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import Recipe from './components/Recipe'
+import { Component } from 'react'
+import {Recipe} from './components/Recipe'
 import recipces from './recipces.json'
-function App() {
+export class App extends Component {
  
-
-  return (
-    <>
-      <Recipe recipcesMass={recipces}/>
-    </>
-  )
+  render() {
+    return (
+      <>
+        <Recipe recipcesMass={recipces} />
+      </>
+    )
+  }
 }
 
-export default App

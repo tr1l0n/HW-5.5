@@ -1,7 +1,5 @@
 import s from './Recipces.module.css'
-function Recipe({ recipcesMass }) {
-    console.log(recipcesMass);
-    
+export const  Recipe = ({ recipcesMass }) => {
     return (
         <ul className={s.list}>
             {recipcesMass.map(recipe => (
@@ -26,4 +24,3 @@ function Recipe({ recipcesMass }) {
         </ul>
     )
 }
-export default Recipe
